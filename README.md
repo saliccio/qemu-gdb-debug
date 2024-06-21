@@ -26,6 +26,8 @@ These settings can be specified:
 
 * `qemu-gdb-debug.executablePath`: Executable path (generally same as the one QEMU runs) **(Example: `${workspaceFolder}/bin/kernel.elf`)**
 
+## Usage
+`Debug with QEMU and GDB` command is selected from the command palette (`Ctrl + Shift + P`).
 
 ## Release Notes
 
