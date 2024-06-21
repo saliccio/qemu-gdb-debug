@@ -16,29 +16,15 @@ Tested on:
 ## Extension Settings
 
 These settings can be specified:
-* `qemu-gdb-debug.startQemuCommand`: QEMU start command
+* `qemu-gdb-debug.startQemuCommand`: QEMU start command **(Example: `qemu-system-i386 -s -S -drive file=image.elf,index=0,if=floppy,format=raw`)**
 
-Example: `qemu-system-i386 -s -S -drive file=image.elf,index=0,if=floppy,format=raw`
-<br/><br/>
+* `qemu-gdb-debug.stopQemuCommand`: QEMU stop command (can be omitted for not stopping) **(Example: `pkill -f qemu-system-i386`)**
 
-* `qemu-gdb-debug.stopQemuCommand`: QEMU stop command (can be omitted for not stopping)
+* `qemu-gdb-debug.serverAddress`: GDB server address (localhost:1234 by default in QEMU) **(Example: `localhost:1234`)**
 
-Example: `pkill -f qemu-system-i386`
-<br/><br/>
+* `qemu-gdb-debug.gdbPath`: GDB path **(Example: `/usr/bin/gdb`)**
 
-* `qemu-gdb-debug.serverAddress`: GDB server address (localhost:1234 by default in QEMU)
-
-Example: `localhost:1234`
-<br/><br/>
-
-* `qemu-gdb-debug.gdbPath`: GDB path
-
-Example: `/usr/bin/gdb`
-<br/><br/>
-
-* `qemu-gdb-debug.executablePath`: Executable path (generally same as the one QEMU runs)
-
-Example: `${workspaceFolder}/bin/kernel.elf`
+* `qemu-gdb-debug.executablePath`: Executable path (generally same as the one QEMU runs) **(Example: `${workspaceFolder}/bin/kernel.elf`)**
 
 
 ## Release Notes
