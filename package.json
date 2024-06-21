@@ -7,8 +7,9 @@
   },
   "publisher": "FurkanSalk",
   "icon": "icon.png",
+  "repository": "https://github.com/sfurkan20/qemu-gdb-debug.git",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.90.0"
   },
