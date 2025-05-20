@@ -9,7 +9,7 @@
   "icon": "icon.png",
   "repository": "https://github.com/sfurkan20/qemu-gdb-debug.git",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -44,7 +44,7 @@
           },
           "qemu-gdb-debug.gdbPath": {
             "type": "string",
-            "default": "",
+            "default": "gdb",
             "description": "Path to GDB executable"
           },
           "qemu-gdb-debug.executablePath": {
