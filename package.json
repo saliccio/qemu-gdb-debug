@@ -1,5 +1,8 @@
 {
   "name": "qemu-gdb-debug",
+  "extensionDependencies": [
+    "ms-vscode.cpptools"
+  ],
   "displayName": "QEMU-GDB Debugging",
   "author": {
     "name": "Furkan Salık",
